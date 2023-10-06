@@ -1,5 +1,0 @@
-yfinance
-plotly==5.17.0
-pandas
-numpy
-dash
