@@ -71,7 +71,7 @@ def update_graph(stock_name, duration, num_simulations, confidence_level):
         fig = px.histogram(simulations, title='Monte Carlo Simulation - Stock Returns Distribution')
 
         # Print interpretation for better readability
-        interpretation = f"There is a {100 - confidence_level}% probability that the daily return for {stock_name} stock will be worse (more negative) than a decrease of {abs(var):.2f}%."
+        interpretation = f"The daily returns for {stock_name} stock won't drop more than {abs(round(var,2))}% on {100-confidence_level} out of 100 days"
         print("Callback completed successfully.")
 
         result = varval + " " + interpretation
