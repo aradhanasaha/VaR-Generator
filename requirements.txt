@@ -1,7 +1,7 @@
-plotly==5.17.0
+plotly
 pandas
 numpy
 yfinance
 dash
-flask==3.0.0
+gunicorn
 
