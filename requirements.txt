@@ -3,3 +3,4 @@ pandas
 numpy
 yfinance
 dash
+flask==3.0.0
