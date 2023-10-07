@@ -88,5 +88,4 @@ def update_graph(stock_name, duration, num_simulations, confidence_level):
 
 #Run the app
 if __name__ == '__main__':
-   
-    server = app.server
+    app.run_server()
